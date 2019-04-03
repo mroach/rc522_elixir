@@ -9,6 +9,7 @@ This currently barely works, but it works. Kinda. It's really bad. Sorry.
 ### References:
 
 * https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
+* http://wg8.de/wg8n1496_17n3613_Ballot_FCD14443-3.pdf
 * https://github.com/miguelbalboa/rfid
 * https://github.com/pimylifeup/MFRC522-python/
 
