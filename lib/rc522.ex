@@ -132,8 +132,8 @@ defmodule RC522 do
 
   def to_card(spi, command, data) do
     # THESE ARE ONLY FOR COMMAND == transceive
-    irq_en = 0x77
-    wait_irq = 0x30   # RxIRq and IdleIRq
+    # irq_en = 0x77
+    # wait_irq = 0x30   # RxIRq and IdleIRq
 
     spi
     |> write(@register.command, @command.idle)        # stop any active commands
