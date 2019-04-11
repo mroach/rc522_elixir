@@ -97,6 +97,8 @@ defmodule RC522 do
     |> write(@register.tx_auto, 0x40)
     |> write(@register.mode, 0x3D)
     |> antenna_on
+
+    :ok
   end
 
   def halt(spi) do
